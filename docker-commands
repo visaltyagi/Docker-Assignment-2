@@ -1,0 +1,9 @@
+sudo docker commit test assignment2
+sudo docker run –itd –p 81:80 –name test1 assignment2
+docker container ls -a
+sudo docker exec –it test1 bash
+apt update
+apt install apache2
+service apache2 status
+service apache2 start
+service apache2 status
