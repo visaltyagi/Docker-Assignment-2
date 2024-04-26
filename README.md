@@ -7,7 +7,7 @@ In this assignment, we have to create a container on port 81 using the assignmen
 
 **Step 1:** Create an Image using the previous docker container.
 
-**Step 2:** Create a container again.
+**Step 2:** Create a container again using the new image.
 
 **Step 3:** Go inside the container & install apache2 here.
 
